@@ -2,10 +2,10 @@
 
 **Font-changing** is a simple web application designed to help IT students understand basic DOM manipulation and interactivity using HTML, CSS, and JavaScript. In this project, you can dynamically 
 adjust the style of a heading by toggling text case, switching bold on/off, increasing or decreasing font size, changing font families, and resetting the styles to default.
-This is the link to the page:zxy-0830.github.io/font-changing/
+This is the link to the page:  https://zxy-0830.github.io/font-changing/
 
 ## Project Overview
-
+https://github.com/Zxy-0830/font-changing/blob/main/README.md
 This project was built to showcase a concept that is both intriguing and beneficial for IT students who are learning front-end development. The application provides a hands-on example of:
 - Changing text case (uppercase/lowercase)
 - Toggling bold styling
