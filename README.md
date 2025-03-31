@@ -160,3 +160,32 @@ Key Points:
 currentSize stores the current font size.
 Increases or decreases the font size while checking the limits.
 Displays a reminder message and disables the corresponding button if a limit is reached.
+
+2.4 Font Family Selection and Reset Functionality
+
+```js
+selecthere.addEventListener('change', () => {
+  heading.style.fontFamily = selecthere.value;
+});
+
+function redo() {
+  buttonfunction();
+  heading.style.fontFamily = 'Arial, Helvetica, sans-serif';
+  heading.style.fontSize = '50px';
+  heading.style.fontWeight = 'normal';
+  heading.textContent = heading.textContent.toLowerCase();
+  selecthere.selectedIndex = 0;
+}
+
+reset.addEventListener('click', () => {
+  redo();
+});```
+
+Description:
+The dropdown menu changes the heading’s font family when a new option is selected.
+The redo() function resets all styles to default, including font family, font size,
+ font weight, and text case.
+
+Key Points:
+The dropdown change event updates the fontFamily property.
+The reset functionality restores all styling and resets the dropdown selection.
