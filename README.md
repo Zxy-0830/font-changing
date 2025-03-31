@@ -2,6 +2,7 @@
 
 **Font-changing** is a simple web application designed to help IT students understand basic DOM manipulation and interactivity using HTML, CSS, and JavaScript. In this project, you can dynamically 
 adjust the style of a heading by toggling text case, switching bold on/off, increasing or decreasing font size, changing font families, and resetting the styles to default.
+This is the link of the page 
 
 ## Project Overview
 
@@ -220,4 +221,5 @@ Reset all styles to their default values.
 This project provides a clear example of DOM manipulation and event handling in JavaScript, 
 making it a valuable learning tool for IT students.
 
-![image](https://github.com/user-attachments/assets/52f6f982-43ea-4cd2-b862-88ac40f8b727)
+![image](https://github.com/user-attachments/assets/a1496b5d-4ff8-4864-9575-89c23a4609b6)
+
