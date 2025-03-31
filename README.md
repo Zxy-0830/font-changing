@@ -40,7 +40,7 @@ This section provides a detailed analysis of the JavaScript code used in the pro
 At the beginning of the code, several key DOM elements are obtained using `document.getElementById`:
 - **heading:** The element displaying the main text (with id "heading").
 - **remind:** The element used to show reminder messages (with id "remindhere").
-- **Buttons:** `uppercase`, `bold`, `increase`, `decrease`, and `reset` represent the controls for toggling case, toggling bold, adjusting font size, and resetting styles.
+- **Buttons:** uppercase, bold, increase, decrease, and reset represent the controls for toggling case, toggling bold, adjusting font size, and resetting styles.
 - **selecthere:** The dropdown element used to select different font families.
 
   ## 2. Main Functionalities
