@@ -30,7 +30,3 @@ All interactions are handled by JavaScript, and the application’s layout is st
 
 - **Reset Functionality:**  
   Reset all modifications (text case, font weight, font size, and font family) back to the default values.
-
-## File Structure
-
-
