@@ -113,3 +113,50 @@ function getbold() {
   }
 }
 ```
+
+2.3 Font Size Adjustment (crase and decrase functions)
+
+```js
+const minSize = 20;
+const maxSize = 100;
+let currentSize = 50;
+
+function crase() {
+  if (currentSize < maxSize) {
+    buttonfunction();
+    currentSize += 5;
+    heading.style.fontSize = currentSize + 'px';
+  } else {
+    remind.innerText = 'you have reached the maxmium fontsize';
+    increase.disabled = true;
+  }
+}
+
+function decrase() {
+  if (currentSize > minSize) {
+    buttonfunction();
+    currentSize -= 5;
+    heading.style.fontSize = currentSize + 'px';
+  } else {
+    remind.innerText = 'you have reached the minmium fontsize';
+    decrease.disabled = true;
+  }
+}
+
+increase.addEventListener('click', () => {
+  crase();
+});
+
+decrease.addEventListener('click', () => {
+  decrase();
+});
+```
+
+Description:
+These functions adjust the font size of the heading in steps of 5px, with the font size 
+constrained between 20px and 100px.
+
+Key Points:
+currentSize stores the current font size.
+Increases or decreases the font size while checking the limits.
+Displays a reminder message and disables the corresponding button if a limit is reached.
