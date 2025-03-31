@@ -67,3 +67,49 @@ Uses toUpperCase() and toLowerCase() to determine the current state.
 Changes the text accordingly and updates the button label to reflect the next action.
 Calls the helper function buttonfunction() at the beginning to clear any reminders and
 reset the font size button
+
+
+2.2 Toggle Bold Functionality (getbold function)
+
+```js
+function getbold() {
+  buttonfunction();
+  if (window.getComputedStyle(heading).fontWeight === "400") {
+    heading.style.fontWeight = 'bolder';
+    bold.innerText = 'unbold';
+  } else if (window.getComputedStyle(heading).fontWeight === "700") {
+    heading.style.fontWeight = 'normal';
+    bold.innerText = 'bold';
+  }
+}
+
+bold.addEventListener('click', () => {
+  getbold();
+});
+```
+
+Description:
+This function toggles the heading's font weight between normal (400) and bold (700).
+
+Key Points:
+Utilizes window.getComputedStyle to get the current fontWeight of the heading.
+Switches the style and updates the button text to indicate the current state.
+
+### Bold Toggle Functionality Modification
+
+Due to some system issues on my computer, the original code for toggling the bold state 
+did not work as expected. Therefore, I decided to use ChatGPT to modify the code to achieve
+the desired effect. Below is the original code that was used for the bold toggle functionality:
+
+```js
+function getbold() {
+  buttonfunction();
+  if(heading.style.fontWeight = 'unbold' ) {
+    heading.style.fontWeight = 'bolder'
+    bold.innerText = 'unbold';
+  } else if(heading.style.fontWeight = 'bold' ) {
+    heading.style.fontWeight = 'normal'
+    bold.innerText = 'bold';
+  }
+}
+```
