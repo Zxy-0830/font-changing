@@ -190,3 +190,32 @@ The redo() function resets all styles to default, including font family, font si
 Key Points:
 The dropdown change event updates the fontFamily property.
 The reset functionality restores all styling and resets the dropdown selection.
+
+2.5 Helper Function: buttonfunction()
+
+```js
+function buttonfunction() {
+  remind.innerText = '';
+  increase.disabled = false;
+  decrease.disabled = false;
+}
+```
+
+Description:
+This helper function is called at the beginning of most operations to clear any existing 
+reminder messages and re-enable the font size buttons.
+
+Key Points:
+Ensures a clean state before performing any further operations.
+
+
+##3.Summary
+The JavaScript code demonstrates how to:
+Dynamically toggle text case.
+Switch font weight between normal and bold.
+Adjust the font size within a specified range.
+Change the font family based on user selection.
+Reset all styles to their default values.
+
+This project provides a clear example of DOM manipulation and event handling in JavaScript, 
+making it a valuable learning tool for IT students.
