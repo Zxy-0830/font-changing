@@ -179,7 +179,8 @@ function redo() {
 
 reset.addEventListener('click', () => {
   redo();
-});```
+});
+```
 
 Description:
 The dropdown menu changes the heading’s font family when a new option is selected.
