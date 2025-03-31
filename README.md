@@ -1,6 +1,6 @@
-# Click Here Web Application
+# Font-chaning Web Application
 
-**Click Here** is a simple web application designed to help IT students understand basic DOM manipulation and interactivity using HTML, CSS, and JavaScript. In this project, you can dynamically 
+**Font-changing** is a simple web application designed to help IT students understand basic DOM manipulation and interactivity using HTML, CSS, and JavaScript. In this project, you can dynamically 
 adjust the style of a heading by toggling text case, switching bold on/off, increasing or decreasing font size, changing font families, and resetting the styles to default.
 
 ## Project Overview
