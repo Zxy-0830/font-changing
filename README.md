@@ -219,3 +219,5 @@ Reset all styles to their default values.
 
 This project provides a clear example of DOM manipulation and event handling in JavaScript, 
 making it a valuable learning tool for IT students.
+
+![image](https://github.com/user-attachments/assets/52f6f982-43ea-4cd2-b862-88ac40f8b727)
