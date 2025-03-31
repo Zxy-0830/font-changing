@@ -57,15 +57,13 @@ function upcase() {
     heading.textContent = heading.textContent.toUpperCase();
     uppercase.innerText = 'lowercase';
   }
-}
+}```
 
 Description:
 This function toggles the heading text between uppercase and lowercase.
 
 Key Points:
-
 Uses toUpperCase() and toLowerCase() to determine the current state.
-
 Changes the text accordingly and updates the button label to reflect the next action.
-
-Calls the helper function buttonfunction() at the beginning to clear any reminders and reset the font size button
+Calls the helper function buttonfunction() at the beginning to clear any reminders and
+reset the font size button
