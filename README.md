@@ -57,8 +57,8 @@ function upcase() {
     heading.textContent = heading.textContent.toUpperCase();
     uppercase.innerText = 'lowercase';
   }
-}```
-
+}
+```
 Description:
 This function toggles the heading text between uppercase and lowercase.
 
